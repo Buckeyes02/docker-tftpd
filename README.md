@@ -1,6 +1,8 @@
 Tftpd Docker Image
 ==================
 
+***Forked to add '-c' to tftpd command in order to allow pushing new files to the tftp server***
+
 Tftpd in a Docker container, with data directory in a volume, and a configurable UID/GID for data files.
 
 [![CircleCI](https://circleci.com/gh/wastrachan/docker-tftpd/tree/master.svg?style=svg)](https://circleci.com/gh/wastrachan/docker-tftpd/tree/master)
