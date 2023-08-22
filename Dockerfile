@@ -12,4 +12,4 @@ VOLUME /data
 EXPOSE 69/udp
 
 ENTRYPOINT ["/docker-entrypoint.sh"]
-CMD ["/usr/sbin/in.tftpd", "-L", "-v", "-s", "-u", "tftpd", "/data"]
+CMD ["/usr/sbin/in.tftpd", "-c", "-L", "-v", "-s", "-u", "tftpd", "/data"]
